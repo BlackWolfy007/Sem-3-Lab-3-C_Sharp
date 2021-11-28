@@ -29,7 +29,7 @@ namespace Sem_3_Lab_3_C_Sharp
                         dbt_acc.Out();
                         Console.Write("Валюта:\n1. RUB.\n2. USD.\n3. EUR.\n: ");
                         curr = Convert.ToInt32(Console.ReadLine());
-                        Console.Write("Сумма для пополнения\n: ");
+                        Console.Write("Сумма для списания\n: ");
                         dec = Convert.ToInt32(Console.ReadLine());
                         dbt_acc.Debting(dec, curr - 1);
                         dbt_acc.Out();
